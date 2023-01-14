@@ -1,0 +1,32 @@
+
+  .TTitleWrapper{
+    padding-left: 5px;
+    padding-top: 71.24px;
+    margin: auto;
+    width: 829px;
+    display: flex;
+  }
+
+  .TWrapper{
+    /*display: block;*/
+    margin: auto;
+    width: 829px;
+  }
+
+  .triangle {
+    width: 0px;
+    height: 0px;
+
+    border-top: 23.03px solid #91C427;
+    border-left: 0px solid transparent;
+    border-right: 23px solid transparent;
+  }
+
+  .T{
+    width: 829px;
+    height: 3px;
+    left: 573px;
+    top: 1362px;
+
+    background: #719C17;
+  }

@@ -1,0 +1,58 @@
+  
+  .GWrapper{
+    /*display: block;*/
+    width: 829px;
+    
+  }
+
+  .circleWrapper{
+    display: flex;
+    width: 154px;
+    height: 27px;
+    
+    margin-left: 47px;
+    margin-top: 86px;
+    
+    
+  }
+
+  .circle {
+
+    width : 27px;
+    height : 27px;
+    border-radius: 50%;
+    background-color: #91C427;
+
+    left: 0%;
+    right: 82.47%;
+    top: 0%;
+    bottom: 0%;
+
+    margin-right: 5px;
+
+  
+  }
+
+  .Ltriangle{
+    width: 10px;
+    height: 20px;
+    border-left: 10px solid #719C17;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    margin-top: "2px";
+    margin-right: "5px";
+  }
+
+  .link{
+    padding: 0px;
+    gap: 80px;
+
+    width: 632px;
+    height: 49px;
+
+
+    /* Inside auto layout */
+
+    color: #719C17;
+  }
