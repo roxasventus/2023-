@@ -1,0 +1,19 @@
+  
+  .IWrapper{
+    /*display: block;*/
+    width: 829px;
+    
+  }
+
+  .ArticleTitle{
+    display: flex;
+  }
+
+  .Rectangle{
+    margin-right: 19px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 55px solid #719C17;
+    border-left: 10px solid #719C17;
+    border-right: 10px solid #719C17;
+  }

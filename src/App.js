@@ -15,6 +15,9 @@ import Koreanmart from './pages/convenient/koreanmart';
 import Laundry from './pages/convenient/laundry';
 import Mart from './pages/convenient/mart';
 
+import Nature from './pages/tourist/nature';
+import Activity from './pages/tourist/activity';
+import Attraction from './pages/tourist/attraction';
 
 import Header from './components/Header';
 import './App.css';
@@ -31,7 +34,11 @@ function App() {
           <Route path="/aurora" element={<AuroraPage />} />
           <Route path="/culture" element={<CulturePage />} />
           <Route path="/eating" element={<EatingPage />} />
-          <Route path="/tourist" element={<TouristPage />} />
+          <Route path="/tourist" element={<TouristPage />}>
+            <Route path="nature" element={<Nature />} />
+            <Route path="activity" element={<Activity />} />
+            <Route path="attraction" element={<Attraction />} />
+          </Route>
           <Route path="/convenient-facilities" element={<ConvenientPage /> } >
             <Route path="laundry" element={<Laundry />} />
             <Route path="koreanmart" element={<Koreanmart />} />

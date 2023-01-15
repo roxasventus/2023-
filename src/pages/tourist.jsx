@@ -9,6 +9,7 @@ import photo2 from "../image/image2.jpg"
 import photo3 from "../image/image3.jpg"
 import photo4 from "../image/image4.jpg"
 
+import { Link, Outlet } from 'react-router-dom';
 
 import { Swiper, SwiperSlide } from "swiper/react"; // basic
 import SwiperCore, { Pagination, paginationStyleItem } from "swiper";
@@ -43,6 +44,26 @@ export default function TouristPage() {
         <div style={{marginTop: "309px"}}>
           <SubBanner text="인버카길 관광명소"/>
         </div>
+
+        <nav className="navbar">
+            <div className="navbar__logo">
+                <i className="fab fa-acscusoft"></i>
+                <Link to="#"></Link>
+            </div>
+
+            <ul className="navbar_menu">
+                <li><Link to="/tourist/nature">자연</Link></li>
+                <li><Link to="/tourist/activity">액티비티</Link></li>
+                <li><Link to="/tourist/attraction">볼거리</Link></li>
+            </ul>
+
+            <div className="navbar_icons">
+                <li><i className="fab fa-twitter"></i></li>
+                <li><i className="fab fa-facebook-f"></i></li>
+            </div>
+      </nav>
+
+      <Outlet />
     </div>   
   );
 }
