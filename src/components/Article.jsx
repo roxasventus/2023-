@@ -5,21 +5,23 @@ export default function Article(props){
 
 
     return( 
-        <div style={{height:"100%", width: "30%", display:"flex", margin:"118px auto"}}>
-            <img style={{width: "80%", height: "299px"}} alt="" src={photo}/>
+        <div style={{height:"100%", width: "45%", margin:"10vh auto"}}>
+            <div style={{
+                display : "flex"
+            }}>
+            <img style={{width: "55%", height: "100%", borderRadius : "5%"}} alt="" src={photo}/>
             <div className="Wrapper">
                 <div  className="ArticleTitle">
                     <div
                         style={{
-                            marginTop: "30px",
-                            marginLeft: "53px",
-                            marginBottom: "11px",
-                            top: "1761px",
+                            marginTop: "3%",
+                            marginLeft: "10%",
+                        
 
                             fontFamily: 'Gmarket Sans TTF',
                             fontStyle: "normal",
                             fontWeight: "700",
-                            fontSize: "24px",
+                            fontSize: "1.5rem",
                             lineHeight: "28px",
                             /* identical to box height */
 
@@ -32,22 +34,19 @@ export default function Article(props){
                 <hr className='A'/>
                 <div style={{
                     
-                    margin:"28px 53px",
-
-                    width: "80%",
+                    marginLeft : "10%",
+                    width: "100%",
                     height: "100%",
-                    left: "991px",
-                    top: "1833px",
-                    
-                    fontFamily: 'Gothic A1',
+                    fontFamily: 'regular',
                     fontStyle: "normal",
                     fontWeight: 500,
-                    fontSize: "16px",
+                    fontSize: "1rem",
                     lineHeight: "25px",
                     /* or 156% */
                     
             
                 }}>{props.text}</div>
+                </div>
             </div>
         </div>
 

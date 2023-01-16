@@ -8,23 +8,18 @@ export default function SubBanner(props) {
     <div>
       <div style={{
         
-        left: "0%",
-        right: "0%",
-        top: "0%",
-        bottom: "33.78%",
-        
         fontFamily: 'Gmarket Sans TTF',
         fontStyle: "normal",
         fontWeight: 700,
-        fontSize: "48px",
+        fontSize: "3rem",
         lineHeight: "55px",
         textAlign: "center",
         
         color: "#000000"
       }}>{props.text}</div>
       <hr style={{
-        width: "450px",
-        height: "12px",
+        width: "10%",
+        height: "10px",
         background: "#719C17",
         borderRadius: "4px"
       }}/>
