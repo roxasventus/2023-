@@ -11,13 +11,11 @@ export default function TriangleArticle(props){
                 <div  className="TArticleTitle">
                     <div
                         style={{
-                            left: "611px",
-                            top: "1316px",
 
                             fontFamily: 'Gmarket Sans TTF',
                             fontStyle: "normal",
                             fontWeight: "700",
-                            fontSize: "24px",
+                            fontSize: "1.5rem",
                             lineHeight: "28px",
                             /* identical to box height */
 
@@ -28,7 +26,9 @@ export default function TriangleArticle(props){
                 </div>
             </div>
             <hr className='T'/>
-            <div>{props.text}</div>
+            <div style = {{
+                fontFamily : 
+            }}>{props.text}</div>
         </div>
 
     );
