@@ -5,8 +5,8 @@ export default function Article(props){
 
 
     return( 
-        <div style={{height:"229px", width: "829px", display:"flex", margin:"118px auto"}}>
-            <img style={{width: "349px", height: "299px"}} alt="" src={photo}/>
+        <div style={{height:"100%", width: "30%", display:"flex", margin:"118px auto"}}>
+            <img style={{width: "80%", height: "299px"}} alt="" src={photo}/>
             <div className="Wrapper">
                 <div  className="ArticleTitle">
                     <div
@@ -34,8 +34,8 @@ export default function Article(props){
                     
                     margin:"28px 53px",
 
-                    width: "337px",
-                    height: "187px",
+                    width: "80%",
+                    height: "100%",
                     left: "991px",
                     top: "1833px",
                     
@@ -46,8 +46,6 @@ export default function Article(props){
                     lineHeight: "25px",
                     /* or 156% */
                     
-                    
-                    color: "#000000"
             
                 }}>{props.text}</div>
             </div>
