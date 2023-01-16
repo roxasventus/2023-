@@ -1,0 +1,22 @@
+.word{
+
+    margin-right: 130px;
+
+    left: 28.75%;
+    right: 65.89%;
+    top: 15.73%;
+    bottom: 83.48%;
+
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    text-align: center;
+
+}

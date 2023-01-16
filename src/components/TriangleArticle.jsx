@@ -27,7 +27,7 @@ export default function TriangleArticle(props){
             </div>
             <hr className='T'/>
             <div style = {{
-                fontFamily : 
+                fontFamily : "regular"
             }}>{props.text}</div>
         </div>
 
