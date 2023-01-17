@@ -1,11 +1,13 @@
 import { React, useState } from 'react';
 import "./GradeCSS.css"
-//import photo from "../image/image8.png"
+import photo from "../image/image.jpg"
 export default function Grade(props){
+
+
     return( 
         <>
             <div style={{height:"229px", width: "829px", display:"flex", margin:"118px auto"}}>
-                <img style={{width: "585px", height: "297px"}} alt="안됨" src={props.img}></img>
+                <img style={{width: "585px", height: "297px"}} alt="" src={photo}/>
                 <div className="GWrapper">
                     <div  className="GradeTitle">
                         <div
@@ -23,7 +25,11 @@ export default function Grade(props){
                                 
                                 color: "#000000",
                                 
+                                
                                 /* Inside auto layout */
+                                
+
+                                
                             }}
                         >{props.title}</div>
                     </div>

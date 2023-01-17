@@ -1,16 +1,15 @@
   
   .Wrapper{
-    /*display: block;*/
-    width: 829px;
+    width:55%;
     
   }
 
   .A{
-    width: 350px;
+    width: 95%;
     height: 3px;
     left: 994px;
     top: 1802px;
-    margin-left: 56px;
+    margin-left: 10%;
 
     background: #719C17;
   }

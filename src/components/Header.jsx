@@ -15,8 +15,8 @@ export default function Header({ }){
                 <li><Link to="/aurora">오로라</Link></li>
                 <li><Link to="/culture">문화</Link></li>
                 <li><Link to="/eating">맛집</Link></li>
-                <li><Link to="/tourist">관광명소</Link></li>
-                <li><Link to="/convenient-facilities">편의시설</Link></li>
+                <li><Link to="/tourist/nature">관광명소</Link></li>
+                <li><Link to="/convenient-facilities/laundry">편의시설</Link></li>
             </ul>
 
             <div className="navbar_icons">
