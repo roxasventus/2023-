@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css';
 import { useState } from 'react';
 import SubBanner from '../components/SubBanner';
+import Top from '../components/Top';
+
 import Picture from '../components/Picture';
 
 import photo from "../image/image.jpg"
@@ -44,6 +46,13 @@ export default function TouristPage() {
         <div style={{marginTop: "309px"}}>
           <SubBanner text="인버카길 관광명소"/>
         </div>
+
+        <Top text="관광명소 Top3" image1={photo} image2={photo2} image3={photo3} 
+        article1="Oreti Beach 20 Don Street, Invercargill 9810" 
+        article2="Stadium Southland Surrey Park Road, Glengarry, Invercargill 9810" 
+        article3="Invercargill Water Tower 101 Doon Street, Invercargill 9810"
+        />
+
 
         <nav className="navbar">
             <div className="navbar__logo">

@@ -5,7 +5,6 @@ import Banner from '../components/Banner';
 import SubBanner from '../components/SubBanner';
 import Words from '../components/Words';
 import Circleimage from '../components/Circleimage';
-
 import photo from "../image/image.jpg"
 
 export default function CulturePage() {
