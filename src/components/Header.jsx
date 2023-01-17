@@ -8,7 +8,9 @@ export default function Header({ }){
         <nav className="navbar">
             <div className="navbar__logo">
                 <i className="fab fa-accusoft"></i>
-                <Link to="/">로고</Link>
+                <Link to="/">
+                    <img style={{width: "7.5rem", height: "1.125rem"}} alt="안됨" src="../image/logo.png"></img>
+                </Link>
             </div>
 
             <ul className="navbar_menu">

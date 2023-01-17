@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { useState } from 'react';
 import SubBanner from '../components/SubBanner';
-
+import Top from '../components/Top';
 import Picture from '../components/Picture';
 import photo from "../image/image.jpg"
 import photo2 from "../image/image2.jpg"
@@ -39,6 +39,15 @@ export default function EatingPage() {
       <div style={{marginTop: "309px"}}>
         <SubBanner text="인버카길 맛집"/>
       </div>
+
+      <Top text="맛집 Top3" image1={photo} image2={photo2} image3={photo3} 
+        title1="The Auction House"
+        title2="The Batch Cafe"
+        title3="KOJI Japanese Restaurant"
+        article1="20 Don Street, Invercargill 9810" 
+        article2="173 Spey Street, Invercargill 9810" 
+        article3="76 Tay Street, Invercargill 9810"
+        />
     </div>   
 );
 }

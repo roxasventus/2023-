@@ -46,11 +46,14 @@ export default function TouristPage() {
         <div style={{marginTop: "309px"}}>
           <SubBanner text="인버카길 관광명소"/>
         </div>
-
+        
         <Top text="관광명소 Top3" image1={photo} image2={photo2} image3={photo3} 
-        article1="Oreti Beach 20 Don Street, Invercargill 9810" 
-        article2="Stadium Southland Surrey Park Road, Glengarry, Invercargill 9810" 
-        article3="Invercargill Water Tower 101 Doon Street, Invercargill 9810"
+        title1="Oreti Beach"
+        title2="Stadium Southland"
+        title3="Invercargill Water Tower"
+        article1="20 Don Street, Invercargill 9810" 
+        article2="Surrey Park Road, Glengarry, Invercargill 9810" 
+        article3="101 Doon Street, Invercargill 9810"
         />
 
 
