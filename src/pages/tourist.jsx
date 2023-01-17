@@ -3,11 +3,10 @@ import '../App.css';
 import { useState } from 'react';
 import SubBanner from '../components/SubBanner';
 import Picture from '../components/Picture';
-
-import photo from "../image/image.jpg"
-import photo2 from "../image/image2.jpg"
-import photo3 from "../image/image3.jpg"
-import photo4 from "../image/image4.jpg"
+import photo from "../images/image.jpg"
+import photo2 from "../images/image2.jpg"
+import photo3 from "../images/image3.jpg"
+import photo4 from "../images/image4.jpg"
 
 import { Link, Outlet } from 'react-router-dom';
 
