@@ -28,9 +28,8 @@ export default function TouristPage() {
       <Swiper
           style={{
             width: "100%",
-            height: "727px",
+            height: "80vmin",
             backgroundColor: "#FFFFFF",
-            borderRadius: "12px",
             margin: "auto"
           }}
           spaceBetween={130}
@@ -43,7 +42,7 @@ export default function TouristPage() {
           <SwiperSlide> <Picture src={photo3}/> </SwiperSlide>
           <SwiperSlide> <Picture src={photo4}/> </SwiperSlide>
         </Swiper>
-        <div style={{marginTop: "309px"}}>
+        <div style={{marginTop: "10vh"}}>
           <SubBanner text="인버카길 관광명소"/>
         </div>
         
