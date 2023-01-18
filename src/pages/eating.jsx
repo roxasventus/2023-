@@ -39,7 +39,7 @@ export default function EatingPage() {
           <SwiperSlide> <Picture src={photo3}/> </SwiperSlide>
           <SwiperSlide> <Picture src={photo4}/> </SwiperSlide>
         </Swiper>
-      <div style={{marginTop: "309px"}}>
+      <div style={{marginTop: "50px"}}>
         <SubBanner text="인버카길 맛집"/>
       </div>
 
