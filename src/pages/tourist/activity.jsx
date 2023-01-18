@@ -4,12 +4,20 @@ import Introduce from '../../components/Introduce';
 export default function Activity(props) {
   return (
     <>
-        <Introduce title="Queens Park 퀸즈 공원"
-            text="인버카길 시내중심에 있는 퀸즈 파크는 다양한 종류의 장미가 아름답게 피어있는 장미정원과, 진달래 골짜기, 철쭉정원, 좌우에 나무가 우거진 산책로이다. 퀸즈 파크에는 조류 관찰지와 작은 동물원, 어린이 놀이터, 각종 스포츠 시설 및 카페가 있다. 구경거리로는 피라미드형 박물관 안에 있는 마오리관으로, 유럽인들이 뉴질랜드에 정착하기 전 마오리인들의 생활상을 전시하고 있다."
+        <Introduce title="Splash Palace 수영장"
+            text="시티카운실이 운영하는 인버카길 수영장이다. 이 시설에는 50m x 8레인 스포츠 풀, 파도와 스프레이가 있는 레저 풀, 토츠 풀, 학습자 풀 등이 있다. 워터 슬라이드, 스파 풀, 사우나 및 카페도 있다."
+            img="../image/image 19-3.png"
         />
 
-        <Introduce title="Oreti Beach 오레티해변"
-            text="뉴질랜드 남랜드의 포보 해협 해안에 누워있는 3개의 중심 만으로, 다른 곳은 테와웨만과 토에토스 만이 있다. 길이 26킬로미터, 만은 리버턴 읍과 북서쪽 아파리마 강 유역, 남동쪽 오레티 강 하구 사이에 놓여 있다."
+        <Introduce title="딕 디스 인버카길 자동차박물관"
+            text="뉴질랜드 최남단의 도시 인버카길(Invercargill)에 위치한 트랜스포트 월드(Transport World)에서는 '딕 디스 인버카빌'은 뉴질랜드 최초의 중장비 놀이터로, 최근 뉴질랜드에서 떠오르는 가장 흥미로운 관광 명소 중 한 곳이 됐다. 빈티지 트럭, 경주용 차, 기타 희귀 차량 등 300여 종의 차량을 관람할 수 있는 세계 최대 규모의 자동차 박물관이다."
+            img="../image/image 19-4.png"
+        />
+
+        <Introduce title="Stadium Southland 
+               종합 경기장"
+            text="이사벨라 스트리트(Isabella Street)의 서리파크 스포츠 센터(Surrey Park Sports Centre)에 있는 대규모 실내 종합경기장이다. 사이클·농구·네트볼·배구·스쿼시·테니스·검도·암벽 등반·실내 축구 같은 경기가 열리며 다양한 비즈니스 공간을 갖추었다. 5,500명을 수용할 수 있으며 임시 좌석까지 합하면 6,000명까지 가능하다."
+            img="../image/image 19-5.png"
         />
     </>
     

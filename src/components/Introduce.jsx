@@ -1,12 +1,12 @@
 import { React, useState } from 'react';
 import "./IntroduceCSS.css"
-import photo from "../image/image.jpg"
+//import photo from "../image/image.jpg"
 export default function Introduce(props){
 
 
     return( 
         <div style={{height:"399px", width: "1038px", display:"flex", margin:"118px auto"}}>
-            <img style={{width: "562px", height: "399px"}} alt="" src={photo}/>
+            <img style={{width: "562px", height: "399px"}} alt="" src={props.img}/>
             <div className="IWrapper">
                 <div  style={{ marginLeft: "19px", marginTop: "20px"}} className="ArticleTitle">
                     <div className='Rectangle'/>
