@@ -1,11 +1,11 @@
 import { React, useState } from 'react';
-import "./Culture_listCSS.css"
+import "./CultureListCSS.css"
 //import photo from "./image/image.jpg"
 export default function CultureList(props){
     return( 
         <div className="All_box" style={{height:"500px", width: "829px", margin:"117px auto", overflow:"visible"}}>
             <div className="Wrapper">
-                <img style={{width: "300px", height: "400px"}} alt="" src={props.img_b}/>
+                <img className="i" style={{width: "300px", height: "400px"}} alt="" src={props.img_b}/>
                 <div  className="ArticleTitle">
                     <div
                         style={{

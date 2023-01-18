@@ -154,7 +154,7 @@ export default function CulturePage() {
               fontStyle: "normal",
               fontWeight: "400",
               fontSize: "32px",
-              lineHeight: "40px",
+              lineHeight: "400px",
               alignItems: "center",
               textAlign: "center",
 
