@@ -3,6 +3,7 @@ import '../App.css';
 import { useState } from 'react';
 import Banner from '../components/Banner';
 import SubBanner from '../components/SubBanner';
+import Culture_list from '../components/Culture_list.jsx';
 import Words from '../components/Words';
 import Circleimage from '../components/Circleimage';
 import photo from "../image/image.jpg"
@@ -119,11 +120,6 @@ export default function CulturePage() {
         </div>
       </div>
 
-
-
-
-
-
       <div style={{width:"1000px", height:"700px", display: "flex", margin:"auto", marginTop:"119.13px", marginBottom: "223px"}}>
         <div style={{display: "block"}}>
           <div style={{
@@ -165,6 +161,28 @@ export default function CulturePage() {
         <Circleimage image={photo}/>
       </div>
       <SubBanner text="문화"/>
+      <div class="sc" style={{ overflow: "scroll", display:"flex" }}>
+        <Culture_list 
+          img_b = "../image/image 44.png"
+          title = "상점"
+          text = "음식점이나 상점같은 상가는 보통 영업시간이 오후 9시를 넘는 곳을 찾기 어렵다. 인구도 많이 없을 뿐더러 오늘일을 내일로 미루면 좋지! 하는 문화가 있어 오래도록 영업하는 곳을 찾기 어렵다."/>
+        <Culture_list 
+          img_b = "../image/image 44.png"
+          title = "상점"
+          text = "음식점이나 상점같은 상가는 보통 영업시간이 오후 9시를 넘는 곳을 찾기 어렵다. 인구도 많이 없을 뿐더러 오늘일을 내일로 미루면 좋지! 하는 문화가 있어 오래도록 영업하는 곳을 찾기 어렵다."/>
+        <Culture_list 
+          img_b = "../image/image 44.png"
+          title = "상점"
+          text = "음식점이나 상점같은 상가는 보통 영업시간이 오후 9시를 넘는 곳을 찾기 어렵다. 인구도 많이 없을 뿐더러 오늘일을 내일로 미루면 좋지! 하는 문화가 있어 오래도록 영업하는 곳을 찾기 어렵다."/>
+        <Culture_list 
+          img_b = "../image/image 44.png"
+          title = "상점"
+          text = "음식점이나 상점같은 상가는 보통 영업시간이 오후 9시를 넘는 곳을 찾기 어렵다. 인구도 많이 없을 뿐더러 오늘일을 내일로 미루면 좋지! 하는 문화가 있어 오래도록 영업하는 곳을 찾기 어렵다."/>
+        <Culture_list 
+          img_b = "../image/image 44.png"
+          title = "상점"
+          text = "음식점이나 상점같은 상가는 보통 영업시간이 오후 9시를 넘는 곳을 찾기 어렵다. 인구도 많이 없을 뿐더러 오늘일을 내일로 미루면 좋지! 하는 문화가 있어 오래도록 영업하는 곳을 찾기 어렵다."/>
+      </div>
     </div>   
 );
 }

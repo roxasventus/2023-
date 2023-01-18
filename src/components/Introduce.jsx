@@ -5,7 +5,7 @@ export default function Introduce(props){
 
 
     return( 
-        <div style={{height:"399px", width: "1100px", display:"flex", margin:"118px auto"}}>
+        <div style={{height:"399px", width: "1038px", display:"flex", margin:"118px auto"}}>
             <img style={{width: "562px", height: "399px"}} alt="" src={props.img}/>
             <div className="IWrapper">
                 <div  style={{ marginLeft: "19px", marginTop: "20px"}} className="ArticleTitle">
