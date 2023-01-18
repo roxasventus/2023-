@@ -16,7 +16,7 @@ export default function CulturePage() {
   return(
     <div className="App">
       <Banner text="문화"/>
-      <div style={{marginTop: "200px"}}>
+      <div style={{marginTop: "15px"}}>
         <SubBanner text="뉴질랜드의 공용어"/>
         <div style={{
             marginTop: "83px",

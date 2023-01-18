@@ -15,7 +15,7 @@ export default function Toparticle(props){
             }}>
                 <img 
                 style={{
-                width: "266px",
+                width: "100%",
                 height: "239px",
                 left: "650px",
                 top: "1171px"
@@ -23,7 +23,7 @@ export default function Toparticle(props){
                 alt="" src={props.image}/>
                 <div                     
                     style={{
-                        width: "267x",
+                        width: "100%",
                         height: "100px",
                         left: "649px",
                         top: "1427px",
@@ -48,7 +48,7 @@ export default function Toparticle(props){
                     }}                       
                     >{props.title}</div>
                     <div style={{
-                        width: "200px",
+                        width: "100%",
                         height: "39px",
                         left: "667px",
                         top: "1458px",
