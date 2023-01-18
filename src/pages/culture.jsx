@@ -6,7 +6,8 @@ import SubBanner from '../components/SubBanner';
 import CultureList from '../components/CultureList';
 import Words from '../components/Words';
 import Circleimage from '../components/Circleimage';
-import photo from "../image/image.jpg"
+import photo from "../image/Group 2.png"
+import photo2 from "../image/Group 3.png"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -111,7 +112,7 @@ export default function CulturePage() {
                 fontStyle: "normal",
                 fontWeight: "400",
                 fontSize: "32px",
-                lineHeight: "40px",
+                lineHeight: "120px",
                 alignItems: "center",
                 textAlign: "center",
 
@@ -135,7 +136,7 @@ export default function CulturePage() {
             fontStyle: "normal",
             fontWeight: 800,
             fontSize: "64px",
-            lineHeight: "80px",
+            lineHeight: "400px",
             alignItems: "center",
             textAlign: "center",
             
@@ -161,7 +162,7 @@ export default function CulturePage() {
 
           }}>기독교</div>
         </div>
-        <Circleimage image={photo}/>
+        <Circleimage image={photo2}/>
       </div>
       <SubBanner text="문화"/>
 
@@ -215,6 +216,7 @@ export default function CulturePage() {
               text = "선글라스를 챙기도록 하자. 뉴질랜드 부근의 오존층이 심하게 파손되어 태양이 매우 강하다. 선글라스를 안 끼면 눈이 심하게 손상이 된다. 또한 자외선으로 인해 피부암의 위험이 높다."/>
             </SwiperSlide>
           </Swiper>
+
 
     </div>   
 );
