@@ -12,6 +12,7 @@ export default function Introduce(props){
                     <div className='Rectangle'/>
                     <div
                         style={{
+                            
                             marginTop: "8px",
                             left: "57.42%",
                             right: "1.35%",
