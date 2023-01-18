@@ -7,8 +7,8 @@ export default function Circleimage(props){
     return( 
         <div class="box" style={{
             background: "#BDBDBD",
-            width: "615px",
-            height: "615px",
+            width: "40%",
+            height: "60%",
             borderRadius: "70%",
             overflow: "hidden",
             
