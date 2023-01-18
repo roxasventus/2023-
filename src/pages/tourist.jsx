@@ -10,6 +10,9 @@ import photo from "../image/image.jpg"
 import photo2 from "../image/image2.jpg"
 import photo3 from "../image/image3.jpg"
 import photo4 from "../image/image4.jpg"
+import photo5 from "../image/image 011.png"
+import photo6 from "../image/image 19-55.png"
+import photo7 from "../image/image 19-11.png"
 
 import { Link, Outlet } from 'react-router-dom';
 
