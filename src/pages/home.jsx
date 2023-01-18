@@ -14,7 +14,7 @@ export default function HomePage() {
           <Swiper
             style={{
               width: "100%",
-              height: "727px",
+              height: "80vmin",
               backgroundColor: "#FFFFFF",
               borderRadius: "12px",
               margin: "auto"

@@ -5,7 +5,7 @@ export default function Top(props){
 
     return(
         <>
-            <div style={{display: "flex", width: "80%", margin: " 100px auto"}}>
+            <div style={{display: "flex", width: "80%", margin: " 70px auto"}}>
                 <div
                     style={{
                         width: "5%",
@@ -54,7 +54,7 @@ export default function Top(props){
                 <Toparticle image={props.image3} title={props.title3} article={props.article3}/>
             </div>
             <hr style={{
-                width: "80%",
+                width: "60%",
                 height: "0px",
                 left: "483px",
                 top: "767px",
