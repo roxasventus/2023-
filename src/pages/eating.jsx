@@ -54,7 +54,7 @@ export default function EatingPage() {
       
       <div style={{
         margin: "auto",
-        width: "1040px",
+        width: "70%",
         height: "224px",
         left: "440px",
         top: "1823px",
