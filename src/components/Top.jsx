@@ -5,14 +5,14 @@ export default function Top(props){
 
     return(
         <>
-            <div style={{display: "flex", width: "1000px", margin: " 100px auto"}}>
+            <div style={{display: "flex", width: "80%", margin: " 100px auto"}}>
                 <div
                     style={{
-                        width: "198px",
+                        width: "5%",
                         height: "356px",
-                        borderBottom: "356px solid #BAD18A",
+                        borderBottom: "13vw solid #BAD18A",
                         borderLeft: "0px solid #BAD18A",
-                        borderRight: "200px solid #BAD18A"
+                        borderRight: "13vw solid #BAD18A"
                     }}
                 >
                     <div style={{
@@ -20,7 +20,7 @@ export default function Top(props){
                         paddingTop: "42px",
                         paddingLeft: "20px",
 
-                        width: "152px",
+                        width: "100%",
                         height: "28px",
                         left: "454px",
                         top: "1213px",
@@ -28,7 +28,7 @@ export default function Top(props){
                         fontFamily: 'Gmarket Sans TTF',
                         fontStyle: "normal",
                         fontWeight: "700",
-                        fontSize: "25px",
+                        fontSize: "1.563rem",
                         lineHeight: "29px",
                         
                         color: "#000000"
@@ -36,7 +36,7 @@ export default function Top(props){
                     <div
                         style={{
 
-                            width: "198px",
+                            width: "100%",
                             height: "201px",
 
                             paddingTop: "116px",
@@ -54,7 +54,7 @@ export default function Top(props){
                 <Toparticle image={props.image3} title={props.title3} article={props.article3}/>
             </div>
             <hr style={{
-                width: "1000px",
+                width: "80%",
                 height: "0px",
                 left: "483px",
                 top: "767px",
