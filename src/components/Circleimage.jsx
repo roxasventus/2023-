@@ -5,7 +5,7 @@ export default function Circleimage(props){
 
 
     return( 
-        <div class="box" style={{
+        <div className="box" style={{
             background: "#BDBDBD",
             width: "40%",
             height: "60%",
@@ -14,7 +14,7 @@ export default function Circleimage(props){
             
             marginTop: "212.13px"
             }}>
-            <img class="profile" alt="" src={props.image}
+            <img className="profile" alt="" src={props.image}
               style={{    
                 width: "100%",
                 height: "100%",
