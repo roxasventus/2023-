@@ -4,8 +4,9 @@ import "./GradeCSS.css"
 export default function Grade(props){
     return( 
         <>
-            <div style={{height:"229px", width: "829px", display:"flex", margin:"118px auto"}}>
-                <img style={{width: "585px", height: "297px"}} alt="안됨" src={props.img}></img>
+
+            <div style={{height:"auto", width: "55%", display:"flex", margin:"118px auto"}}>
+                <img style={{width: "55%", height: "35%"}} alt="안됨" src={props.img}></img>
                 <div className="GWrapper">
                     <div  className="GradeTitle">
                         <div
@@ -18,7 +19,11 @@ export default function Grade(props){
                                 fontFamily: 'Gmarket Sans TTF',
                                 fontStyle: "normal",
                                 fontWeight: 700,
-                                fontSize: "40px",
+<<<<<<< HEAD
+                                fontSize: "2.5rem",
+=======
+                                fontSize: "3rem",
+>>>>>>> 7b72b9ce3e86bdc4264f22224f7029e78f01c8c1
                                 lineHeight: "46px",
                                 
                                 color: "#000000",
@@ -38,8 +43,13 @@ export default function Grade(props){
                         
                         margin:"28px 7%",
 
-                        width: "337px",
+<<<<<<< HEAD
+                        width: "60%",
                         height: "187px",
+=======
+                        width: "90%",
+                        height: "auto",
+>>>>>>> 7b72b9ce3e86bdc4264f22224f7029e78f01c8c1
                         left: "991px",
                         top: "1833px",
                         
