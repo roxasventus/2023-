@@ -5,8 +5,8 @@ export default function Article(props){
 
 
     return( 
-        <div style={{height:"229px", width: "829px", display:"flex", margin:"118px auto"}}>
-            <img style={{width: "349px", height: "299px"}} alt="" src={props.img}/>
+        <div style={{height:"80%", width: "auto", display:"flex", margin:"118px auto"}}>
+            <img style={{width: "45%", height: "auto", marginLeft:"30px"}} alt="" src={props.img}/>
             <div className="Wrapper">
                 <div  className="ArticleTitle">
                     <div
@@ -19,7 +19,7 @@ export default function Article(props){
                             fontFamily: 'Gmarket Sans TTF',
                             fontStyle: "normal",
                             fontWeight: "700",
-                            fontSize: "24px",
+                            fontSize: "1.5rem",
                             lineHeight: "28px",
                             /* identical to box height */
 
@@ -34,15 +34,15 @@ export default function Article(props){
                     
                     margin:"28px 53px",
 
-                    width: "337px",
-                    height: "187px",
+                    width: "80%",
+                    height: "40%",
                     left: "991px",
                     top: "1833px",
                     
                     fontFamily: 'Gothic A1',
                     fontStyle: "normal",
                     fontWeight: 500,
-                    fontSize: "16px",
+                    fontSize: "1rem",
                     lineHeight: "25px",
                     /* or 156% */
                     
