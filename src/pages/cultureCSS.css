@@ -1,0 +1,14 @@
+
+.sc{
+    overflow: "scroll";
+    display:"flex";
+}
+.sc::-webkit-scrollbar {
+    width: 0px;
+}
+.sc::-webkit-scrollbar-thumb {
+    background-color: #2f3542;
+}
+.sc::-webkit-scrollbar-track {
+    background-color: grey;
+}
