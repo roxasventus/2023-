@@ -5,8 +5,8 @@ export default function Article(props){
 
 
     return( 
-        <div style={{height:"80%", width: "auto", display:"flex", margin:"118px auto"}}>
-            <img style={{width: "45%", height: "auto", marginLeft:"30px"}} alt="" src={props.img}/>
+        <div style={{height:"auto", width: "55%", display:"flex", margin:"118px auto"}}>
+            <img style={{width: "45%", height: "35%"}} alt="" src={props.img}/>
             <div className="Wrapper">
                 <div  className="ArticleTitle">
                     <div
