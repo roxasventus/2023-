@@ -1,15 +1,15 @@
 import { React, useState } from 'react';
 import "./Culture_listCSS.css"
 //import photo from "./image/image.jpg"
-export default function Article(props){
+export default function CultureList(props){
     return( 
-        <div className="All_box" style={{height:"500px", width: "829px", margin:"118px auto", overflow:"visible"}}>
-            <img style={{width: "300px", height: "400px"}} alt="" src={props.img_b}/>
+        <div className="All_box" style={{height:"500px", width: "829px", margin:"117px auto", overflow:"visible"}}>
             <div className="Wrapper">
+                <img style={{width: "300px", height: "400px"}} alt="" src={props.img_b}/>
                 <div  className="ArticleTitle">
                     <div
                         style={{
-                            margin : "10px 30px 0px 30px",
+                            margin : "auto",
                             fontFamily: 'Gmarket Sans TTF',
                             fontStyle: "normal",
                             fontWeight: "700",
@@ -23,7 +23,7 @@ export default function Article(props){
                 <div style={{
                     width: "300px",
                     height: "187px",
-                    margin : "10px 30px 0px 30px",
+                    margin : "auto",
                     textAlign: 'justify',
                     
                     fontFamily: 'Gothic A1',
