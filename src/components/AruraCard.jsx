@@ -7,6 +7,8 @@ export default function AruraCard(props) {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
+      marginBottom: '8px',
+      marginTop : '3px'
     }}>
     <div style= {{
         fontFamily : 'Gmarket Sans TTF',
@@ -21,7 +23,7 @@ export default function AruraCard(props) {
        justifyContent: 'center',
 
     }}>
-    <img src = {require('./../image/bird/bird1.png')} style = {{
+    <img src = {props.img} alt="안됨" style = {{
         width : '40vmin',
         height : '100%',
     }}></img>
