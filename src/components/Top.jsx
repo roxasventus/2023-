@@ -62,7 +62,7 @@ export default function Top(props){
                 paddingLeft: "250px",
                 marginBottom: "100px",
 
-                border: "1px solid #8E8E8E"
+                border: "solid #8E8E8E"
                 }}/>
         </>
     );
