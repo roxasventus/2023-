@@ -1,0 +1,95 @@
+.Name{
+    margin-top: 9px;
+
+    width: 509px;
+    height: 44px;
+    left: 918px;
+    top: 3275px;
+
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Address{
+    width: auto;
+    height: 25px;
+    left: 935px;
+    top: 3330px;
+
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.E{
+    margin-top: 25px;
+
+    left: 47.01%;
+    right: 2.06%;
+    top: 35.75%;
+    bottom: 64.25%;
+
+    border: solid #000000;
+}
+
+.Content{
+    padding-top: 6%;
+    left: 47.33%;
+    right: 13.39%;
+    top: 47.21%;
+    bottom: 23.74%;
+
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.Recommend{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    left: 47.33%;
+    right: 13.39%;
+    top: 47.21%;
+    bottom: 23.74%;
+
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.Link a{
+
+    left: 50.47%;
+    right: 40%;
+    top: 31.36%;
+    bottom: 68.25%;
+
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+
+    color: #000000;
+}
