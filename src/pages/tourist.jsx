@@ -28,24 +28,7 @@ export default function TouristPage() {
 
   return(
     <div>
-      <Swiper
-          style={{
-            width: "100%",
-            height: "80vmin",
-            backgroundColor: "#FFFFFF",
-            margin: "auto"
-          }}
-          spaceBetween={130}
-          slidesPerView={1}
-          pagination={{ clickable: true}} //*
-          paginationStyleItem={{ width:10, height:10, borderRadius:10 }}
-        >
-          <SwiperSlide> <Picture src={photo}/> </SwiperSlide>
-          <SwiperSlide> <Picture src={photo2}/> </SwiperSlide>
-          <SwiperSlide> <Picture src={photo3}/> </SwiperSlide>
-          <SwiperSlide> <Picture src={photo4}/> </SwiperSlide>
-        </Swiper>
-        <div style={{marginTop: "10vh"}}>
+        <div style={{marginTop: "50px"}}>
           <SubBanner text="인버카길 관광명소"/>
         </div>
         
