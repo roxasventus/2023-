@@ -11,8 +11,8 @@ export default function Grade(props){
                         <div
                             style={{
                             
-                                marginLeft: "7%",
-                                marginBottom: "10%",
+                                marginLeft: "30px",
+                                marginBottom: "5px",
 
                                 width : '70%',
                                 fontFamily: 'Gmarket Sans TTF',
@@ -36,13 +36,11 @@ export default function Grade(props){
                     </div>
                     <div style={{
                         
-                        margin:"28px 7%",
+                        margin:"28px 30px",
 
 
                         width: "90%",
                         height: "auto",
-                        left: "991px",
-                        top: "1833px",
                         
                         fontFamily: 'Gothic A1',
                         fontStyle: "normal",
