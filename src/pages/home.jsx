@@ -27,8 +27,8 @@ export default function HomePage() {
           >
             <SwiperSlide> <Picture src={photo}/> </SwiperSlide>
             <SwiperSlide> <Picture src={photo2}/> </SwiperSlide>
-            <SwiperSlide> <Picture src={photo3}/> </SwiperSlide>
-            <SwiperSlide> <Picture src={photo4}/> </SwiperSlide>
+            <SwiperSlide> <Picture src={photo3}/></SwiperSlide>
+            <SwiperSlide> <Picture src={photo4}/></SwiperSlide>
           </Swiper>
           
           <div style={{width:"100%"}}>
