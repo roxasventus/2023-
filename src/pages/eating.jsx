@@ -21,6 +21,10 @@ import photo236 from "../image/image 23-6.png"
 import photo237 from "../image/image 23-7.png"
 import photo238 from "../image/image 23-8.png"
 import photo239 from "../image/image 23-9.png"
+import photoIlt1 from "../image/ilteatimg1.png"
+import photoIlt2 from "../image/ilteatimg2.png"
+import photoIlt3 from "../image/ilteatimg3.png"
+
 
 
 import { Swiper, SwiperSlide } from "swiper/react"; // basic
@@ -183,6 +187,18 @@ export default function EatingPage() {
             
             color: "#000000"
         }}>현지 맛집</div>
+        <EatingInformation image={photoIlt1} name="Brew’d cafe" address="59 Dee Street, CBD, Invercargill, 9810"
+        content="Brew'd는 계절에 따라 정기적으로 업데이트되는 정식 아침 및 점심 메뉴와 가벼운 식사, 달콤한 간식 및 바쁜 사람들을 위한 다양한 옵션을 위한 잘 채워진 캐비닛을 제공합니다. " 
+        recommend="추천 메뉴 : EGGS BENEDICT, BALSAMIC GLAZED MUSHROOM"
+        link="https://thelanglands.co.nz/brewd/" />
+        <EatingInformation image={photoIlt2} name="MELD" address="The Langlands Hotel Ground floor, access off Don Street"
+        content="프리미엄 및 현지 농산물을 선보이는 요리로 퓨전 풍미의 요리 정신을 기립니다. " 
+        recommend="추천 메뉴 : MUSHROOM DUMPLINGS, CUCUMBER KIMCHI"
+        link="https://www.facebook.com/meldsignaturerestaurant" />
+        <EatingInformation image={photoIlt3} name="The Homestead" address="59 Dee Street, CBD, Invercargill, 9810"
+        content="다양하고 새로운 메뉴를 통해 훈제 장 고기와 어린이 메뉴를 포함하여 Southland에서 가장 맛있는 음식을 선보입니다. " 
+        recommend="추천 메뉴 : EGGS BENEDICT, BALSAMIC GLAZED MUSHROOM"
+        link="https://thelanglands.co.nz/brewd/" />
 
         <EatingInformation image={photo235} name="Pinch of Spice" address="7 Clyde Street, City Centre, Invercargill 9810"  
         content="인도 현지 보다 맛있는 뉴질랜드 커리!"
@@ -205,6 +221,7 @@ export default function EatingPage() {
         content="연인과 함께 분위기 있는 한 끼!" 
         recommend="추천 메뉴 : Oven baked loaf"
         link="https://www.thesaucychef.co.nz/" />
+        
     </div>
 
     </div>   
