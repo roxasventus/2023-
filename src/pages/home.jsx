@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react"; // basic
 import Article from '../components/Article';
 import Picture from '../components/Picture';
 
+import video from '../image/video.mp4'
+
 import photo from "../image/image.jpg"
 import photo2 from "../image/image2.jpg"
 import photo3 from "../image/image3.jpg"
@@ -29,6 +31,25 @@ export default function HomePage() {
             <SwiperSlide> <Picture src={photo3}/> </SwiperSlide>
             <SwiperSlide> <Picture src={photo4}/> </SwiperSlide>
           </Swiper>
+          
+          <div style={{width:"100%"}}>
+            <video src={video}
+            style={{
+              width: "858px",
+              height: "410px",
+              left: "532px",
+              top: "838px",
+
+              background: "#000000",
+              borderRadius: "10px",
+
+              marginTop: "66px",
+              marginLeft: "27%",
+            }}
+            autoplay
+            controls
+            />
+          </div>
    
           <TriangleArticle 
           title="INVERCARGIL" 
