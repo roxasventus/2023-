@@ -39,7 +39,7 @@ export default function EatingPage() {
           <Swiper
           style={{
             width: "100%",
-            height: "727px",
+              height: "60vmin",
             backgroundColor: "#FFFFFF",
             borderRadius: "12px",
             margin: "auto"
@@ -197,8 +197,8 @@ export default function EatingPage() {
         link="https://www.facebook.com/meldsignaturerestaurant" />
         <EatingInformation image={photoIlt3} name="The Homestead" address="59 Dee Street, CBD, Invercargill, 9810"
         content="다양하고 새로운 메뉴를 통해 훈제 장 고기와 어린이 메뉴를 포함하여 Southland에서 가장 맛있는 음식을 선보입니다. " 
-        recommend="추천 메뉴 : EGGS BENEDICT, BALSAMIC GLAZED MUSHROOM"
-        link="https://thelanglands.co.nz/brewd/" />
+        recommend="추천 메뉴 : Smokesteak"
+        link="https://avenalhomestead.co.nz/" />
 
         <EatingInformation image={photo235} name="Pinch of Spice" address="7 Clyde Street, City Centre, Invercargill 9810"  
         content="인도 현지 보다 맛있는 뉴질랜드 커리!"

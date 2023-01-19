@@ -7,8 +7,7 @@ export default function Picture({src}) {
             width: "stretch",
             aspectRatio: "1 / 1",
             width: "100%",
-            height: "750px",         
-            overflow: "hidden"
+            height: "750px",   
         }}>
         <img
         alt=""
@@ -16,8 +15,8 @@ export default function Picture({src}) {
         style={{
             borderRadius: "12px",
             objectFit: "cover",
-            width: "50%",
-            height: "50%"
+            width: "100%",
+            height: "100%"
         }}/>
         </div>
     );

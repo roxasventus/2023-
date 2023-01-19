@@ -6,9 +6,9 @@ import Picture from '../components/Picture';
 
 import video from '../image/video.mp4'
 
-import photo from "../image/image.jpg"
+import photo from "../image/high0.png"
 import photo2 from "../image/image2.jpg"
-import photo3 from "../image/image3.jpg"
+import photo3 from "../image/high1.png"
 import photo4 from "../image/image4.jpg"
 export default function HomePage() {
     return(
@@ -16,20 +16,19 @@ export default function HomePage() {
           <Swiper
             style={{
               width: "100%",
-              height: "80vmin",
+              height: "100vmin",
               backgroundColor: "#FFFFFF",
-              borderRadius: "12px",
               margin: "auto"
             }}
             spaceBetween={130}
             slidesPerView={1}
             pagination={{ clickable: true}} //*
-            paginationStyleItem={{ width:10, height:10, borderRadius:10 }}
+            paginationStyleItem={{ width:10, height:10 }}
           >
             <SwiperSlide> <Picture src={photo}/> </SwiperSlide>
             <SwiperSlide> <Picture src={photo2}/> </SwiperSlide>
-            <SwiperSlide> <Picture src={photo3}/> </SwiperSlide>
-            <SwiperSlide> <Picture src={photo4}/> </SwiperSlide>
+            <SwiperSlide> <Picture src={photo3}/></SwiperSlide>
+            <SwiperSlide> <Picture src={photo4}/></SwiperSlide>
           </Swiper>
           
           <div style={{width:"100%"}}>
