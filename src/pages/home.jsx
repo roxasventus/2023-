@@ -34,16 +34,14 @@ export default function HomePage() {
           <div style={{width:"100%"}}>
             <video src={video}
             style={{
-              width: "858px",
+              width: "50%",
               height: "410px",
-              left: "532px",
-              top: "838px",
 
               background: "#000000",
               borderRadius: "10px",
 
               marginTop: "66px",
-              marginLeft: "27%",
+              marginLeft: "25%",
             }}
             autoplay
             controls
