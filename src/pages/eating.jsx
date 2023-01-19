@@ -35,7 +35,7 @@ export default function EatingPage() {
           <Swiper
           style={{
             width: "100%",
-            height: "727px",
+              height: "60vmin",
             backgroundColor: "#FFFFFF",
             borderRadius: "12px",
             margin: "auto"

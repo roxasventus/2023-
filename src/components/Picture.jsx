@@ -7,17 +7,16 @@ export default function Picture({src}) {
             width: "stretch",
             aspectRatio: "1 / 1",
             width: "100%",
-            height: "750px",         
-            overflow: "hidden"
+            height: "750px",   
         }}>
         <img
         alt=""
         src={src}
         style={{
             borderRadius: "12px",
-            objectFit: "cover",
+            objectFit: "contain",
             width: "100%",
-            height: "100%"
+            height: "50%"
         }}/>
         </div>
     );
