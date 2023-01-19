@@ -12,8 +12,7 @@ export default function ConvenientPage() {
       <Banner text="편의시설"/>
     </div>  
 
-      <ButtonHeader/>
-
+      <ButtonHeader />
       <Outlet />
   </>
   );

@@ -22,11 +22,6 @@ export default function CulturePage() {
             marginTop: "83px",
             marginBottom: "57.47px",
 
-            left: "45.99%",
-            right: "45.73%",
-            top: "13.55%",
-            bottom: "85.68%",
-
             fontFamily: 'Gothic A1',
             fontStyle: "normal",
             fontWeight: 400,
@@ -42,10 +37,6 @@ export default function CulturePage() {
             marginTop: "83px",
             marginBottom: "57.47px",
 
-            left: "45.99%",
-            right: "45.73%",
-            top: "13.55%",
-            bottom: "85.68%",
 
             fontFamily: 'Gothic A1',
             fontStyle: "normal",
@@ -62,11 +53,6 @@ export default function CulturePage() {
             marginTop: "83px",
             marginBottom: "57.47px",
 
-            left: "45.99%",
-            right: "45.73%",
-            top: "13.55%",
-            bottom: "85.68%",
-
             fontFamily: 'Gothic A1',
             fontStyle: "normal",
             fontWeight: 400,
@@ -76,20 +62,14 @@ export default function CulturePage() {
             textAlign: "center",
 
             color: "#000000"
-        }}>수화</div>
+        }}></div>
       </div>
       <SubBanner text="인종 및 종교"/>
-
-
-      <div style={{width:"1000px", height:"700px", display: "flex", margin:"auto", marginTop:"119.13px"}}>
+      <div style={{width:"1000px", height:"700px",  margin:"0 auto", marginTop:"40px"}}>
         <Circleimage image={photo}/>
-        <div style={{display: "block"}}>
         <div style={{
-            width: "311px",//311px
-            height: "271px",//71
-            left: "917px",
-            top: "1380px",
-            
+        
+            margin : "0 auto",
             fontFamily: 'Gothic A1',
             fontStyle: "normal",
             fontWeight: 800,
@@ -101,13 +81,9 @@ export default function CulturePage() {
             color: "#719C17"
 
 
-          }}></div>
+          }}>
           <div style={{
-            width: "311px",//311px
-            height: "71px",//71
-            left: "917px",
-            top: "1380px",
-            
+           margin : "auto",
             fontFamily: 'Gothic A1',
             fontStyle: "normal",
             fontWeight: 800,
@@ -121,10 +97,7 @@ export default function CulturePage() {
 
           }}>85%</div>
           <div style={{
-                width: "311px",//311
-                height: "271px",//71
-                left: "948px",
-                top: "1460px",
+               
 
                 fontFamily: 'Gothic A1',
                 fontStyle: "normal",
@@ -142,20 +115,30 @@ export default function CulturePage() {
         </div>
       </div>
 
-      <div style={{width:"1000px", height:"700px", display: "flex", margin:"auto", marginTop:"119.13px", marginBottom: "223px"}}>
-        <div style={{display: "block"}}>
-
-          <div style={{
-            width: "311px",//311
-            height: "71px",//71
-            left: "917px",
-            top: "1380px",
-            
+      <div style={{width:"1000px", height:"700px",  margin:"0 auto", marginTop:"20px"}}>
+        <Circleimage image={photo2}/>
+        <div style={{
+        
+            margin : "0 auto",
             fontFamily: 'Gothic A1',
             fontStyle: "normal",
             fontWeight: 800,
             fontSize: "4rem",
-            lineHeight: "400px",
+            lineHeight: "80px",
+            alignItems: "center",
+            textAlign: "center",
+            
+            color: "#719C17"
+
+
+          }}>
+          <div style={{
+           margin : "auto",
+            fontFamily: 'Gothic A1',
+            fontStyle: "normal",
+            fontWeight: 800,
+            fontSize: "4rem",
+            lineHeight: "80px",
             alignItems: "center",
             textAlign: "center",
             
@@ -164,39 +147,37 @@ export default function CulturePage() {
 
           }}>37.5%</div>
           <div style={{
-              width: "311px",//311
-              height: "71px",//71
-              left: "623px",
-              top: "2311px",
+               
 
-              fontFamily: 'Gothic A1',
-              fontStyle: "normal",
-              fontWeight: "400",
-              fontSize: "2rem",
-              lineHeight: "400px",
-              alignItems: "center",
-              textAlign: "center",
+                fontFamily: 'Gothic A1',
+                fontStyle: "normal",
+                fontWeight: "400",
+                fontSize: "2rem",
+                lineHeight: "120px",
+                alignItems: "center",
+                textAlign: "center",
 
-              color: "#000000"
+                color: "#000000",
+
+
 
           }}>기독교</div>
         </div>
-        <Circleimage image={photo2}/> 
       </div>
+
       <SubBanner text="문화"/>
 
       <Swiper
             style={{
-              width: " 80%",
-              height: "800px",//800
+              width: "70%",
+              height: "100%",//800
               backgroundColor: "#FFFFFF",
-              borderRadius: "12px",
-              margin: "auto"
+              margin: "auto",
+              marginBottom : "30px"
             }}
-            spaceBetween={130}
+            spaceBetween={0}
             slidesPerView={3}
             pagination={{ clickable: true}} //*
-            paginationStyleItem={{ width:10, height:10, borderRadius:10 }}
           >
             <SwiperSlide> 
               <CultureList 

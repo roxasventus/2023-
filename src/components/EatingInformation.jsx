@@ -8,8 +8,6 @@ export default function EatingInformation(props) {
             display: "flex",
             width: "95%",
             height: "200%",
-            left: "488px",
-            top: "1960px",
 
             marginBottom: "51px",
 
@@ -27,7 +25,12 @@ export default function EatingInformation(props) {
                 <hr className='E'/>
                 <div className="Contaent">{props.content}</div>
                 <div className="Recommend">{props.recommend}</div>
-                <div className="Link"><a href={props.link}>웹사이트 방문하기</a></div>
+                <div className="Link"><a href={props.link} style = {{
+                    color : '#719C17',
+                    fontSize : '1.1rem',
+                    fontWeight : 'bold'
+            }
+                }>🔍웹사이트 방문하기</a></div>
             </div>
 
 
@@ -35,7 +38,6 @@ export default function EatingInformation(props) {
       </>
   );
 }
-
 
 
 

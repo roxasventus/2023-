@@ -7,17 +7,15 @@ export default function ButtonHeader() {
   return(
 
     <nav className="navbar">
-            <div className="navbar__logo">
-                <i className="fab fa-acscusoft"></i>
-                <Link to="#"></Link>
-            </div>
-
+            <div style={{
+                width:"16%"
+            }}></div>
             <ul className="navbar_menu">
-                <li><Link to="/convenient-facilities/laundry">세탁방</Link></li>
-                <li><Link to="/convenient-facilities/koreanmart">한인마트</Link></li>
-                <li><Link to="/convenient-facilities/bar">주류 백화점</Link></li>
-                <li><Link to="/convenient-facilities/mart">마트</Link></li>
-                <li><Link to="/convenient-facilities/accommodation">숙소</Link></li>
+                <li><Link to="/convenient-facilities/laundry">👕세탁방👕</Link></li>
+                <li><Link to="/convenient-facilities/koreanmart">🥘한인마트🥘</Link></li>
+                <li><Link to="/convenient-facilities/bar">🍻주류 백화점🍻</Link></li>
+                <li><Link to="/convenient-facilities/mart">🍑마트🍑</Link></li>
+                <li><Link to="/convenient-facilities/accommodation">🏠숙소🏠</Link></li>
             </ul>
 
             <div className="navbar_icons">

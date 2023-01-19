@@ -109,12 +109,10 @@ export default function EatingPage() {
           link="https://www.theauctionhouse.co.nz/contact" />
       </div>
 
-      <div style={{
+    <div style={{
         margin: "1000px auto",
-         width: "70%",
+        width: "70%",
         height: "224px",
-        left: "440px",
-        top: "1823px",
 
         paddingLeft: "42px",
         paddingTop: "50px",
@@ -157,9 +155,9 @@ export default function EatingPage() {
       </div>
 
 
-      <div style={{
+    <div style={{
         margin: "1500px auto",
-        width: "70%",
+        width: "1040px",
         height: "224px",
         left: "440px",
         top: "1823px",

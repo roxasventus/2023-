@@ -13,6 +13,11 @@ import photo4 from "../image/image4.jpg"
 import photo5 from "../image/image 011.png"
 import photo6 from "../image/image 19-55.png"
 import photo7 from "../image/image 19-11.png"
+import photo8 from "../image/image 01.png"
+import photo9 from "../image/image 19-5.png"
+import photo10 from "../image/image 19-1.png"
+
+
 
 import { Link, Outlet } from 'react-router-dom';
 
@@ -28,28 +33,11 @@ export default function TouristPage() {
 
   return(
     <div>
-      <Swiper
-          style={{
-            width: "100%",
-            height: "80vmin",
-            backgroundColor: "#FFFFFF",
-            margin: "auto"
-          }}
-          spaceBetween={130}
-          slidesPerView={1}
-          pagination={{ clickable: true}} //*
-          paginationStyleItem={{ width:10, height:10, borderRadius:10 }}
-        >
-          <SwiperSlide> <Picture src={photo}/> </SwiperSlide>
-          <SwiperSlide> <Picture src={photo2}/> </SwiperSlide>
-          <SwiperSlide> <Picture src={photo3}/> </SwiperSlide>
-          <SwiperSlide> <Picture src={photo4}/> </SwiperSlide>
-        </Swiper>
-        <div style={{marginTop: "10vh"}}>
+        <div style={{marginTop: "50px"}}>
           <SubBanner text="인버카길 관광명소"/>
         </div>
         
-        <Top text="관광명소 Top3" image1={photo} image2={photo2} image3={photo3} 
+        <Top text="관광명소 Top3" image1={photo8} image2={photo9} image3={photo10} 
         title1="Oreti Beach"
         title2="Stadium Southland"
         title3="Invercargill Water Tower"
@@ -66,9 +54,18 @@ export default function TouristPage() {
             </div>
 
             <ul className="navbar_menu">
-                <li><Link to="/tourist/nature">자연</Link></li>
-                <li><Link to="/tourist/activity">액티비티</Link></li>
-                <li><Link to="/tourist/attraction">볼거리</Link></li>
+                <li><Link to="/tourist/nature" style = {{
+                  fontSize : "2.5rem",
+
+                }}>🌳자연🌳</Link></li>
+                <li><Link to="/tourist/activity" style = {{
+                  fontSize : "2.5rem",
+                  
+                }}>⛺액티비티⛺</Link></li>
+                <li><Link to="/tourist/attraction" style = {{
+                  fontSize : "2.5rem",
+                  
+                }}>🎡볼거리🎡</Link></li>
             </ul>
 
             <div className="navbar_icons">
