@@ -13,6 +13,11 @@ import photo4 from "../image/image4.jpg"
 import photo5 from "../image/image 011.png"
 import photo6 from "../image/image 19-55.png"
 import photo7 from "../image/image 19-11.png"
+import photo8 from "../image/image 01.png"
+import photo9 from "../image/image 19-5.png"
+import photo10 from "../image/image 19-1.png"
+
+
 
 import { Link, Outlet } from 'react-router-dom';
 
@@ -32,7 +37,7 @@ export default function TouristPage() {
           <SubBanner text="인버카길 관광명소"/>
         </div>
         
-        <Top text="관광명소 Top3" image1={photo} image2={photo2} image3={photo3} 
+        <Top text="관광명소 Top3" image1={photo8} image2={photo9} image3={photo10} 
         title1="Oreti Beach"
         title2="Stadium Southland"
         title3="Invercargill Water Tower"
