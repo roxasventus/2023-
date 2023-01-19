@@ -100,7 +100,7 @@ export default function EatingPage() {
 
         <EatingInformation image={photo231} name="The Batch House" address="173 Spey Street, Invercargill 9810"
           content="점심시간만 되면 현지인들로 붐비는 카페! 늦게가면 자리가 없어요~ "
-          recommend="추천 메뉴 : 에그 베네딕트, 차우더"
+          recommend="추천 메뉴 : Egg Benedict, Chowder"
           link="https://www.facebook.com/batchcafe/"
         />
         <EatingInformation image={photo23} name="The Auction House" address="20 Don Street, Invercargill 9810"

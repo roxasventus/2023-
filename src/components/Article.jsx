@@ -30,7 +30,7 @@ export default function Article(props){
                     >{props.title}</div>
                 </div>
                 <hr className='A'/>
-                <div style={{
+                <div class="main_txt" style={{
                     
                     margin:"28px 53px",
 

@@ -85,8 +85,8 @@ export default function CulturePage() {
         <Circleimage image={photo}/>
         <div style={{display: "block"}}>
         <div style={{
-            width: "10%",
-            height: "35%",
+            width: "311px",//311px
+            height: "271px",//71
             left: "917px",
             top: "1380px",
             
@@ -101,10 +101,10 @@ export default function CulturePage() {
             color: "#719C17"
 
 
-          }}></div> //빈블럭
+          }}></div>
           <div style={{
-            width: "130%",//311px
-            height: "10%",//71
+            width: "311px",//311px
+            height: "71px",//71
             left: "917px",
             top: "1380px",
             
@@ -121,8 +121,8 @@ export default function CulturePage() {
 
           }}>85%</div>
           <div style={{
-                width: "130%",//311
-                height: "10%",//71
+                width: "311px",//311
+                height: "271px",//71
                 left: "948px",
                 top: "1460px",
 
@@ -144,27 +144,10 @@ export default function CulturePage() {
 
       <div style={{width:"1000px", height:"700px", display: "flex", margin:"auto", marginTop:"119.13px", marginBottom: "223px"}}>
         <div style={{display: "block"}}>
-        <div style={{
-            width: "10%",
-            height: "13%",
-            left: "917px",
-            top: "1380px",
-            
-            fontFamily: 'Gothic A1',
-            fontStyle: "normal",
-            fontWeight: 800,
-            fontSize: "4rem",
-            lineHeight: "80px",
-            alignItems: "center",
-            textAlign: "center",
-            
-            color: "#719C17"
 
-
-          }}></div>
           <div style={{
-            width: "90%",//311
-            height: "10%",//71
+            width: "311px",//311
+            height: "71px",//71
             left: "917px",
             top: "1380px",
             
@@ -181,8 +164,8 @@ export default function CulturePage() {
 
           }}>37.5%</div>
           <div style={{
-              width: "90%",//311
-              height: "10%",//71
+              width: "311px",//311
+              height: "71px",//71
               left: "623px",
               top: "2311px",
 
@@ -199,13 +182,13 @@ export default function CulturePage() {
           }}>기독교</div>
         </div>
         <Circleimage image={photo2}/> 
-      </div>// 변경하기, 오른쪽으로
+      </div>
       <SubBanner text="문화"/>
 
       <Swiper
             style={{
               width: " 80%",
-              height: "50%",//800
+              height: "800px",//800
               backgroundColor: "#FFFFFF",
               borderRadius: "12px",
               margin: "auto"
