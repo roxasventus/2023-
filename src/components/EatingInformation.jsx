@@ -18,10 +18,10 @@ export default function EatingInformation(props) {
             <img 
             style={{
                 width: "40%",
-                height: "50%",
+                height: "100%",
             }}
             alt="" src={props.image}/>
-            <div style={{display: "block", marginLeft: "22px", marginTop: "32px", width: "481px"}}>
+            <div style={{display: "block", marginLeft: "22px", marginTop: "32px", width: "50%"}}>
                 <div className='Name'>{props.name}</div>
                 <div className="Address">{props.address}</div>
                 <hr className='E'/>
@@ -35,7 +35,6 @@ export default function EatingInformation(props) {
       </>
   );
 }
-
 
 
 
