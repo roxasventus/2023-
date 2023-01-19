@@ -7,6 +7,11 @@ export default function Accommodation(props) {
     <>
     <div>
       <SubBanner text="숙소"/>
+      <p style={
+        {
+          marginBottom : "40px",
+        }
+      }></p>
       <Grade title="Kelvin Hotel" 
       text="20 Kelvin Street, Invercargill 9810032182829"
       url="https://www.kelvinhotel.co.nz/"

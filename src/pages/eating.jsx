@@ -11,6 +11,17 @@ import photo from "../image/image.jpg"
 import photo2 from "../image/image2.jpg"
 import photo3 from "../image/image3.jpg"
 import photo4 from "../image/image4.jpg"
+import photo23 from "../image/image 23.png"
+import photo231 from "../image/image 23-1.png"
+import photo232 from "../image/image 23-2.png"
+import photo233 from "../image/image 23-3.png"
+import photo234 from "../image/image 23-4.png"
+import photo235 from "../image/image 23-5.png"
+import photo236 from "../image/image 23-6.png"
+import photo237 from "../image/image 23-7.png"
+import photo238 from "../image/image 23-8.png"
+import photo239 from "../image/image 23-9.png"
+
 
 import { Swiper, SwiperSlide } from "swiper/react"; // basic
 import SwiperCore, { Pagination, paginationStyleItem } from "swiper";
@@ -43,7 +54,7 @@ export default function EatingPage() {
         <SubBanner text="인버카길 맛집"/>
       </div>
 
-      <Top text="맛집 Top3" image1={photo} image2={photo2} image3={photo3} 
+      <Top text="맛집 Top3" image1={photo23} image2={photo231} image3={photo232} 
         title1="The Auction House"
         title2="The Batch Cafe"
         title3="KOJI Japanese Restaurant"
@@ -54,7 +65,7 @@ export default function EatingPage() {
       
       <div style={{
         margin: "auto",
-        width: "1040px",
+        width: "70%",
         height: "224px",
         left: "440px",
         top: "1823px",
@@ -83,12 +94,12 @@ export default function EatingPage() {
             color: "#000000"
         }}>브런치가 생각날 때</div>
 
-        <EatingInformation image={photo} name="The Batch House" address="173 Spey Street, Invercargill 9810"  
+        <EatingInformation image={photo231} name="The Batch House" address="173 Spey Street, Invercargill 9810"  
         content="점심시간만 되면 현지인들로 붐비는 카페! 늦게가면 자리가 없어요~ "
         recommend="추천 메뉴 : 에그 베네딕트, 차우더"
         link="https://www.facebook.com/batchcafe/"
         />
-        <EatingInformation image={photo} name="The Auction House" address="20 Don Street, Invercargill 9810"
+        <EatingInformation image={photo23} name="The Auction House" address="20 Don Street, Invercargill 9810"
         content="야외에서 햇살을 맞으며 맛있는 브런치 ~" 
         recommend="추천 메뉴 : Big breakfast, Chia bowl"
         link="https://www.theauctionhouse.co.nz/contact" />
@@ -125,17 +136,17 @@ export default function EatingPage() {
             color: "#000000"
         }}>쌀밥이 생각날 때</div>
 
-        <EatingInformation image={photo} name="KOJI JAPANESE RESTAURANT" address="76 Tay Street, Invercargill 9810"  
+        <EatingInformation image={photo232} name="KOJI JAPANESE RESTAURANT" address="76 Tay Street, Invercargill 9810"  
         content="한국인 사장님이 운영하시는 일식집!!
         한국인은 10% 할인이라구~"
         recommend="추천 메뉴 : Sushi & Tempura set"
         link="https://www.kojiinvercargill.co.nz/"
         />
-        <EatingInformation image={photo} name="Thai Thai Restaurant" address="96 Spey Street, Invercargill 9810"
+        <EatingInformation image={photo233} name="Thai Thai Restaurant" address="96 Spey Street, Invercargill 9810"
         content="뉴질랜드에서 느끼는 타이의 맛!" 
         recommend="추천 메뉴 : Pineapple fried rice "
         link="https://www.thaithaiinvercargill.co.nz/" />
-        <EatingInformation image={photo} name="Vietnamese Delight" address="7B Martin Street, Strathern, Invercargill 9812"
+        <EatingInformation image={photo234} name="Vietnamese Delight" address="7B Martin Street, Strathern, Invercargill 9812"
         content="언제든지 맛있는 한 끼 뚝딱!" 
         recommend="추천 메뉴 : Fired rice"
         link="https://www.facebook.com/VietnameseDelightNZ?paipv=0&eav=AfbSM_VeS5QM_a438c9kh5Gpi3OWWdQg58RKwkqvdfIsYYblo7gr1auJRe6ltExr08k&_rdr" />
@@ -173,24 +184,24 @@ export default function EatingPage() {
             color: "#000000"
         }}>현지 맛집</div>
 
-        <EatingInformation image={photo} name="Pinch of Spice" address="7 Clyde Street, City Centre, Invercargill 9810"  
+        <EatingInformation image={photo235} name="Pinch of Spice" address="7 Clyde Street, City Centre, Invercargill 9810"  
         content="인도 현지 보다 맛있는 뉴질랜드 커리!"
         recommend="추천 메뉴 : Butter chicken"
         link="https://pinchofspicetakeaway.co.nz/order-now"
         />
-        <EatingInformation image={photo} name="Northern Tavern" address="Sydney Street, Windsor, Invercargill 9810"
+        <EatingInformation image={photo236} name="Northern Tavern" address="Sydney Street, Windsor, Invercargill 9810"
         content="언제나 후회없는 선택! 칵테일 한잔은 필수~~" 
         recommend="추천 메뉴 : Fisherman’s basket"
         link="http://www.northerntavern.co.nz/" />
-        <EatingInformation image={photo} name="Pita Pit" address="47 Tay Street, Invercargill 9810"
+        <EatingInformation image={photo237} name="Pita Pit" address="47 Tay Street, Invercargill 9810"
         content="뉴질랜드 서브웨이 가볍게 건강한 한 끼!" 
         recommend="추천 메뉴 : Chicken Caesar"
         link="https://www.pitapit.co.nz/menu?gclid=Cj0KCQiAq5meBhCyARIsAJrtdr6C9HbE9CbeY6789EtT4b4vCK4BVIzL8PzOPlUih5fH_x9TzpSLMiQaAmUqEALw_wcB" />
-        <EatingInformation image={photo} name="BurgerFuel Invercargill" address="123 Dee Street, Invercargill 9810"
+        <EatingInformation image={photo238} name="BurgerFuel Invercargill" address="123 Dee Street, Invercargill 9810"
         content="고구마 튀김 맛집!! 햄버거는 덤이라구~" 
         recommend="추천 메뉴 : KUMARA FRIES"
         link="https://burgerfuel.com/nz/locations/INVERCARGILL" />
-        <EatingInformation image={photo} name="The Saucy Chef Restaurant" address="Sydney Street &, Saint Andrew Street, Invercargill 9810"
+        <EatingInformation image={photo239} name="The Saucy Chef Restaurant" address="Sydney Street &, Saint Andrew Street, Invercargill 9810"
         content="연인과 함께 분위기 있는 한 끼!" 
         recommend="추천 메뉴 : Oven baked loaf"
         link="https://www.thesaucychef.co.nz/" />

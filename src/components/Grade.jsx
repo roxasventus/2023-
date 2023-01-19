@@ -4,21 +4,21 @@ import "./GradeCSS.css"
 export default function Grade(props){
     return( 
         <>
-            <div style={{height:"229px", width: "829px", display:"flex", margin:"118px auto"}}>
-                <img style={{width: "585px", height: "297px"}} alt="안됨" src={props.img}></img>
+            <div style={{height:"auto", width: "55%", display:"flex", margin:"118px auto"}}>
+                <img style={{width: "55%", height: "35%"}} alt="안됨" src={props.img}></img>
                 <div className="GWrapper">
                     <div  className="GradeTitle">
                         <div
                             style={{
-                                marginTop: "30px",
-                                marginLeft: "53px",
-                                marginBottom: "11px",
-                                top: "1761px",
+                            
+                                marginLeft: "30px",
+                                marginBottom: "5px",
 
+                                width : '70%',
                                 fontFamily: 'Gmarket Sans TTF',
                                 fontStyle: "normal",
                                 fontWeight: 700,
-                                fontSize: "40px",
+                                fontSize: "3rem",
                                 lineHeight: "46px",
                                 
                                 color: "#000000",
@@ -36,17 +36,16 @@ export default function Grade(props){
                     </div>
                     <div style={{
                         
-                        margin:"28px 53px",
+                        margin:"28px 30px",
 
-                        width: "337px",
-                        height: "187px",
-                        left: "991px",
-                        top: "1833px",
+
+                        width: "90%",
+                        height: "auto",
                         
                         fontFamily: 'Gothic A1',
                         fontStyle: "normal",
                         fontWeight: 500,
-                        fontSize: "16px",
+                        fontSize: "1rem",
                         lineHeight: "25px",
                         /* or 156% */
                         

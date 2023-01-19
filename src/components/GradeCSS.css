@@ -7,19 +7,18 @@
 
   .circleWrapper{
     display: flex;
-    width: 154px;
-    height: 27px;
+    width: 11vw;
+    height: 1.8vw;
     
-    margin-left: 47px;
-    margin-top: 86px;
-    
+    margin-left: 30px;
+    margin-top: 20px;
     
   }
 
   .circle {
 
-    width : 27px;
-    height : 27px;
+    width : 100%;
+    height : 100%;
     border-radius: 50%;
     background-color: #91C427;
 
@@ -55,4 +54,8 @@
     /* Inside auto layout */
 
     color: #719C17;
+  }
+
+  .GradeTitle{
+    width: 80%;
   }
