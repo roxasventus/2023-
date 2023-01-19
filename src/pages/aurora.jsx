@@ -6,9 +6,9 @@ import Introduce from './../components/Introduce';
 import bird1 from '../image/bird1.svg'
 import bird2 from '../image/bird2.svg'
 import bird3 from '../image/bird3.svg'
-import bird4 from '../image/bird4.png'
-import bird5 from '../image/bird5.png'
-import bird6 from '../image/bird6.png'
+import bird4 from '../image/bird4.svg'
+import bird5 from '../image/bird5.svg'
+import bird6 from '../image/bird6.svg'
 
 
 export default function AuroraPage() {
