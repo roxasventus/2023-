@@ -24,8 +24,8 @@ export default function AruraCard(props) {
 
     }}>
     <img src = {props.img} alt="안됨" style = {{
-        width : '40vmin',
-        height : '100%',
+        // width : '40vmin',
+        // height : '100%',
     }}></img>
     <div className = 'speech-bubble'>{props.subText}</div> 
     </div>  
