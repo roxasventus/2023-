@@ -14,22 +14,23 @@ export default function HomePage() {
     return(
         <>
           <Swiper
-            style={{
-              width: "100%",
-              height: "100vmin",
-              backgroundColor: "#FFFFFF",
-              margin: "auto"
-            }}
-            spaceBetween={130}
-            slidesPerView={1}
-            pagination={{ clickable: true}} //*
-            paginationStyleItem={{ width:10, height:10 }}
-          >
-            <SwiperSlide> <Picture src={photo}/> </SwiperSlide>
-            <SwiperSlide> <Picture src={photo2}/> </SwiperSlide>
-            <SwiperSlide> <Picture src={photo3}/></SwiperSlide>
-            <SwiperSlide> <Picture src={photo4}/></SwiperSlide>
-          </Swiper>
+          style={{
+            width: "100%",
+              height: "60vmin",
+            backgroundColor: "#FFFFFF",
+            borderRadius: "12px",
+            margin: "auto"
+          }}
+          spaceBetween={130}
+          slidesPerView={1}
+          pagination={{ clickable: true}} //*
+          paginationStyleItem={{ width:10, height:10, borderRadius:10 }}
+        >
+          <SwiperSlide> <Picture src={photo}/> </SwiperSlide>
+          <SwiperSlide> <Picture src={photo2}/> </SwiperSlide>
+          <SwiperSlide> <Picture src={photo3}/> </SwiperSlide>
+          <SwiperSlide> <Picture src={photo4}/> </SwiperSlide>
+        </Swiper>
           
           <div style={{width:"100%"}}>
             <video src={video}
