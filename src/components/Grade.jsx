@@ -27,13 +27,7 @@ export default function Grade(props){
                             }}
                         >{props.title}</div>
                     </div>
-                    <div className='circleWrapper'>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                    </div>
+                    
                     <div style={{
                         
                         margin:"28px 30px",
