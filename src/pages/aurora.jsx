@@ -3,12 +3,12 @@ import '../App.css';
 import { useState } from 'react';
 import AruraCard from './../components/AruraCard';
 import Introduce from './../components/Introduce';
-import bird1 from '../image/bird1.png'
-import bird2 from '../image/bird2.png'
-import bird3 from '../image/bird3.png'
-import bird4 from '../image/bird4.png'
-import bird5 from '../image/bird5.png'
-import bird6 from '../image/bird6.png'
+import bird1 from '../image/bird1.svg'
+import bird2 from '../image/bird2.svg'
+import bird3 from '../image/bird3.svg'
+import bird4 from '../image/bird4.svg'
+import bird5 from '../image/bird5.svg'
+import bird6 from '../image/bird6.svg'
 
 
 export default function AuroraPage() {
@@ -16,6 +16,7 @@ export default function AuroraPage() {
     <div className="App" style = {{
       marginTop : '30px',
     }}>
+      <video src="/video/aurora.mp4" loop autoPlay muted />
       <AruraCard img = {bird1} text = "Q. 오로라가 뭔가요?" subText = "오로라는 지구 밖에서 들어온 대전 입자가 지구 대기권 상층부의 기체와 마찰하여 빛을 내는 현상입니다. 쉽게 말하자면 태양과 지구 사이의 상호작용으로 인한 현상이라고 볼 수 있습니다."></AruraCard>
       <AruraCard img = {bird2} text = "Q. 오로라를 보려면 어디로 가야해요?" subText = "오로라는 보통 극지방에서 잘 볼 수 있습니다. 극지방인 북반구와 남반구에 가까울수록 관측이 쉽기 때문에 오로라를 극광이라고도 합니다."></AruraCard>
       <AruraCard img = {bird3} text = "Q. 뉴질랜드에서도 오로라를 볼 수 있나요?" subText = "네, 그렇습니다"></AruraCard>

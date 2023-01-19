@@ -14,9 +14,9 @@ export default function Picture({src}) {
         src={src}
         style={{
             borderRadius: "12px",
-            objectFit: "contain",
+            objectFit: "cover",
             width: "100%",
-            height: "50%"
+            height: "100%"
         }}/>
         </div>
     );
