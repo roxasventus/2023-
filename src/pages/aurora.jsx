@@ -3,7 +3,7 @@ import '../App.css';
 import { useState } from 'react';
 import AruraCard from './../components/AruraCard';
 import Introduce from './../components/Introduce';
-import bird1 from '../image/bird1.png'
+import bird1 from '../image/bird1.svg'
 import bird2 from '../image/bird2.png'
 import bird3 from '../image/bird3.png'
 import bird4 from '../image/bird4.png'
