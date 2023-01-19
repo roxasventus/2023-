@@ -54,9 +54,18 @@ export default function TouristPage() {
             </div>
 
             <ul className="navbar_menu">
-                <li><Link to="/tourist/nature">자연</Link></li>
-                <li><Link to="/tourist/activity">액티비티</Link></li>
-                <li><Link to="/tourist/attraction">볼거리</Link></li>
+                <li><Link to="/tourist/nature" style = {{
+                  fontSize : "2.5rem",
+
+                }}>🌳자연🌳</Link></li>
+                <li><Link to="/tourist/activity" style = {{
+                  fontSize : "2.5rem",
+                  
+                }}>⛺액티비티⛺</Link></li>
+                <li><Link to="/tourist/attraction" style = {{
+                  fontSize : "2.5rem",
+                  
+                }}>🎡볼거리🎡</Link></li>
             </ul>
 
             <div className="navbar_icons">

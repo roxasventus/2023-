@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function Words(props) {
   return(
     <>
-    <div style={{width: "1000px", height: "100px", margin:"auto", paddingLeft: "170px"}}>
+    <div style={{width: "80%", height: "100%", margin:"auto", paddingLeft: "170px"}}>
         <div style={{display: "flex", justifyContent: "center"}}>
             <div className="word">{props.word1}</div>
             <div className="word">{props.word2}</div>
@@ -13,10 +13,8 @@ export default function Words(props) {
         </div>
     </div>
     <hr style={{
-    width: "1002px",
+    width: "90%px",
     height: "0px",
-    left: "483px",
-    top: "767px",
 
     paddingLeft: "200px",
 

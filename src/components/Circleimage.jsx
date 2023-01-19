@@ -11,8 +11,8 @@ export default function Circleimage(props){
             height: "60%",
             borderRadius: "70%",
             overflow: "hidden",
+            margin : '0 auto'
             
-            marginTop: "212.13px"
             }}>
             <img className="profile" alt="" src={props.image}
               style={{    
